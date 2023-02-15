@@ -15,6 +15,20 @@ body{
     margin: 0;
 }
 
-.bg{
-    background-image: url(aloy-bg.jpg);
+.bg {
+    background: url('aloy-bg.jpg') 
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
 }
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
+
